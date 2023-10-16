@@ -1,0 +1,3 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Compte		TAR	91	nouvelle taille enregistrement : 91
+Compte	NumeroCompte	TAI+	12	la rubrique NumeroCompte a comme nouvelle taille 21 au lieu de 9

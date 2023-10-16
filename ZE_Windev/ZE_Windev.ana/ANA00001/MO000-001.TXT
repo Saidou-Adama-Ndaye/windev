@@ -1,0 +1,14 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+client		NFI		nouveau fichier
+compte		NFI		nouveau fichier
+operation		NFI		nouveau fichier
+caissier		NFI		nouveau fichier
+agence		NFI		nouveau fichier
+typecompte		NFI		nouveau fichier
+Parametrage		NFI		nouveau fichier
+Contrainte_client_compte		NWL	client (IDclient) et compte (IDclient)	Nouvelle liaison entre les fichiers client (IDclient) et compte (IDclient)
+Contrainte_caissier_operation		NWL	caissier (IDcaissier) et operation (IDcaissier)	Nouvelle liaison entre les fichiers caissier (IDcaissier) et operation (IDcaissier)
+Contrainte_agence_compte		NWL	agence (IDagence) et compte (IDagence)	Nouvelle liaison entre les fichiers agence (IDagence) et compte (IDagence)
+Contrainte_compte_operation		NWL	compte (IDcompte) et operation (IDcompteDebit)	Nouvelle liaison entre les fichiers compte (IDcompte) et operation (IDcompteDebit)
+Contrainte_compte_operation1		NWL	compte (IDcompte) et operation (IDcompteCredit)	Nouvelle liaison entre les fichiers compte (IDcompte) et operation (IDcompteCredit)
+Contrainte_compte_typecompte		NWL	compte (IDcompte) et typecompte (IDcompte)	Nouvelle liaison entre les fichiers compte (IDcompte) et typecompte (IDcompte)

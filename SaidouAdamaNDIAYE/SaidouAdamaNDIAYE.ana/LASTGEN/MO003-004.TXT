@@ -1,0 +1,4 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+PRODUIT		TAR	66	nouvelle taille enregistrement : 66
+PRODUIT	IDDETAILSFC	RUB-		la clé IDDETAILSFC est supprimée
+PRODUIT	IDDETAILSFF	RUB-		la clé IDDETAILSFF est supprimée

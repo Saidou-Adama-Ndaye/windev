@@ -1,0 +1,9 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Client		NFI		nouveau fichier
+Compte		NFI		nouveau fichier
+Operation		NFI		nouveau fichier
+Caissier		NFI		nouveau fichier
+Agence		NFI		nouveau fichier
+Contrainte_Client_Compte		NWL	Client (IDClient) et Compte (IDClient)	Nouvelle liaison entre les fichiers Client (IDClient) et Compte (IDClient)
+Contrainte_Caissier_Operation		NWL	Caissier (IDCaissier) et Operation (IDCaissier)	Nouvelle liaison entre les fichiers Caissier (IDCaissier) et Operation (IDCaissier)
+Contrainte_Agence_Compte		NWL	Agence (IDAgence) et Compte (IDAgence)	Nouvelle liaison entre les fichiers Agence (IDAgence) et Compte (IDAgence)

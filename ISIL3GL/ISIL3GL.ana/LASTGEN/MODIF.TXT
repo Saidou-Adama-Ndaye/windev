@@ -1,0 +1,11 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Compte		TAR	79	nouvelle taille enregistrement : 79
+Compte	IDTypeCompte	RUB+		IDTypeCompte est une nouvelle clé
+Operation		TAR	62	nouvelle taille enregistrement : 62
+Operation	IDCompteDebit	RUB+		IDCompteDebit est une nouvelle clé
+Operation	IDCompteCredit	RUB+		IDCompteCredit est une nouvelle clé
+TypeCompte		NFI		nouveau fichier
+Parametrage		NFI		nouveau fichier
+Contrainte_Compte_Operation		NWL	Compte (IDCompte) et Operation (IDCompteDebit)	Nouvelle liaison entre les fichiers Compte (IDCompte) et Operation (IDCompteDebit)
+Contrainte_Compte_Operation1		NWL	Compte (IDCompte) et Operation (IDCompteCredit)	Nouvelle liaison entre les fichiers Compte (IDCompte) et Operation (IDCompteCredit)
+Contrainte_TypeCompte_Compte		NWL	TypeCompte (IDTypeCompte) et Compte (IDTypeCompte)	Nouvelle liaison entre les fichiers TypeCompte (IDTypeCompte) et Compte (IDTypeCompte)
